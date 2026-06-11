@@ -1,0 +1,10 @@
+[Unit]
+Description=Oracle Linux security patching from enabled ULN channels
+Documentation=file:/usr/local/sbin/ol-security-patch.sh
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/ol-security-patching.conf
+ExecStart=/usr/local/sbin/ol-security-patch.sh
