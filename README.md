@@ -13,6 +13,7 @@ The scripts are intended for Oracle Linux instances running in Oracle Cloud Infr
 - `systemd/ol-security-patch.service`: one-shot patch service.
 - `systemd/ol-security-patch.timer`: weekly patch schedule.
 - `docs/runbook.md`: operational runbook.
+- `LICENSE`: Apache 2.0 license terms for this project.
 
 ## Default Behavior
 
@@ -141,6 +142,10 @@ sudo scripts/uninstall.sh --purge-config
 ```bash
 make check
 ```
+
+## License
+
+This project is licensed under the Apache License 2.0. See `LICENSE` for the full license text.
 
 ## Notes
 
