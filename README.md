@@ -4,6 +4,11 @@ This project contains an OS-level patching approach for Oracle Linux 7, 8, and 9
 
 The scripts are intended for Oracle Linux instances running in Oracle Cloud Infrastructure, but they do not depend on OCI APIs. They use the local package manager and the repositories already configured on the host.
 
+The scripts and comments are for educational purpose only, t demonstrate features of Oracle Enteprise Linux. For security patching, make yor own risk assessment and 
+requirement judgement.
+
+(c) Inge Os 2026
+
 ## Contents
 
 - `scripts/ol-security-patch.sh`: patch wrapper for Oracle Linux 7/8/9.
