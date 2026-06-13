@@ -3,9 +3,7 @@
 This project contains an OS-level patching approach for Oracle Linux 7, 8, and 9 systems that receive packages from ULN or enabled Oracle Linux repositories.
 
 The scripts are intended for Oracle Linux instances running in Oracle Cloud Infrastructure, but they do not depend on OCI APIs. They use the local package manager and the repositories already configured on the host.
-[Manual Package Commands](#Manual-Package-Commands)
-
-The simple command to run in a shell session is shown, for one off patching as well as the full automation setup.  If you are in a hurry you may evaluate to get inspired by the one-offs. 
+[Manual Package Commands](#Manual-Package-Commands) The Manal acjage Commands are great for one-off pathing. If you are in a hurry you may evaluate to get inspired by this. 
 
 The scripts and comments are for educational purpose only, t demonstrate features of Oracle Enteprise Linux. For security patching, make yor own risk assessment and 
 requirement judgement.
