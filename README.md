@@ -8,7 +8,7 @@ reporting back to to OCI Observability and Monitoring, designed for fleet manage
 The scripts are intended for Oracle Linux instances running in Oracle Cloud Infrastructure, but they do not depend on OCI APIs. They use the local package manager and the repositories already configured on the host.
 [Manual Package Commands](#Manual-Package-Commands) The Manal Package Commands are great for one-off pathing. If you are in a hurry you may evaluate to get inspired by this. 
 
-The scripts and comments are for educational purpose only, t demonstrate features of Oracle Enteprise Linux. For security patching, make yor own risk assessment and 
+The scripts and comments are for educational purpose only, to demonstrate features of Oracle Enteprise Linux. For security patching, make yor own risk assessment and 
 requirement judgement.
 
 (c) Inge Os 2026
