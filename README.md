@@ -3,7 +3,7 @@
 This project contains an OS-level patching approach for Oracle Linux 7, 8, and 9 systems that receive packages from ULN or enabled Oracle Linux repositories.
 
 When your instance is run on Oracle OCI the recommended method is to use OS Managenet Hub. OS Managenet Hub is a agent running or your instance, with 
-reporting back to to OCI Observability and Monitoring, designed for fleet management of OF Instances. [OS Management hub documentation page](https://docs.oracle.com/en-us/iaas/oracle-linux/oci/security-os-mgmt-hub.htm)
+reporting back to to OCI Observability and Monitoring, designed for fleet management of OEL Instances. [OS Management hub documentation page](https://docs.oracle.com/en-us/iaas/oracle-linux/oci/security-os-mgmt-hub.htm)
 
 The scripts are intended for Oracle Linux instances running in Oracle Cloud Infrastructure, but they do not depend on OCI APIs. They use the local package manager and the repositories already configured on the host.
 [Manual Package Commands](#Manual-Package-Commands) The Manal Package Commands are great for one-off pathing. If you are in a hurry you may evaluate to get inspired by this. 
