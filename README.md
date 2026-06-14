@@ -6,7 +6,7 @@ When your instance is run on Oracle OCI the recommended method is to use OS Mana
 reporting back to to OCI Observability and Monitoring, designed for fleet management of OEL Instances. [OS Management hub documentation page](https://docs.oracle.com/en-us/iaas/oracle-linux/oci/security-os-mgmt-hub.htm)
 
 The scripts are intended for Oracle Linux instances running in Oracle Cloud Infrastructure, but they do not depend on OCI APIs. They use the local package manager and the repositories already configured on the host.
-[Manual Package Commands](#Manual-Package-Commands) The Manal Package Commands are great for one-off pathing. If you are in a hurry you may evaluate to get inspired by this. 
+[Manual Package Commands](#Manual-Package-Commands) The Manal Package Commands are great for one-off pathing. If you are in a hurry you may evaluate this option, commands are below for inspiration. 
 
 The scripts and comments are for educational purpose only, to demonstrate features of Oracle Enteprise Linux. For security patching, make yor own risk assessment and 
 requirement judgement.
